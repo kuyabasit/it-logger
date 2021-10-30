@@ -2,6 +2,8 @@ import React, {useEffect} from 'react';
 import 'materialize-css/dist/css/materialize.min.css';
 import M from 'materialize-css/dist/js/materialize.min.js';
 import './App.css';
+import SearchBar from './components/layouts/SearchBar';
+import Logs from './components/logs/Logs';
 
 const App = () => {
   useEffect(()=>{
@@ -9,9 +11,12 @@ const App = () => {
     M.AutoInit();
   })
   return (
-    <div className="App">
-      Redux Practice
-    </div>
+    <>
+      <SearchBar />
+      <div className="container">
+        <Logs />
+      </div>
+    </>
   );
 }
 
