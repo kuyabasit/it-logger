@@ -42,5 +42,5 @@
     "concurrently": "^6.3.0",
     "json-server": "^0.17.0"
   },
-  "proxy": "https://localhost:5000"
+  "proxy": "http://localhost:5000"
 }
