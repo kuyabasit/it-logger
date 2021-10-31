@@ -1,5 +1,6 @@
 import { GET_LOGS, SET_LOADING, LOGS_ERROR } from './types';
 
+// 1st way
 // export const getLogs = () => {
 //   return async (dispatch) => {
 //     setLoading();
@@ -14,12 +15,14 @@ import { GET_LOGS, SET_LOADING, LOGS_ERROR } from './types';
 //   };
 // };
 
+// 2nd way, refactored
+// get logs from server
 export const getLogs = () => async (dispatch) => {
   try {
     setLoading();
 
     const res = await fetch('/logs');
-    const data = res.json();
+    const data = await res.json();
 
     dispatch({
       type: GET_LOGS,
@@ -28,7 +31,7 @@ export const getLogs = () => async (dispatch) => {
   } catch (err) {
     dispatch({
       type: LOGS_ERROR,
-      payload: err.response.data,
+      payload: err.message,
     });
   }
 };
