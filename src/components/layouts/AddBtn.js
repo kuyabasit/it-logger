@@ -5,7 +5,7 @@ const AddBtn = () => {
     <div className='fixed-action-btn'>
       <a
         href='#add-log-modal'
-        className='btn-floating btn-large blue darken-2 modal-trigger'
+        className='btn-floating btn-large green darken-2 modal-trigger'
       >
         <i className='large material-icons'>add</i>
       </a>
@@ -13,7 +13,7 @@ const AddBtn = () => {
         <li>
           <a
             href='#tech-list-modal'
-            className='btn-floating green modal-trigger'
+            className='btn-floating blue modal-trigger'
           >
             <i className='material-icons'>person</i>
           </a>

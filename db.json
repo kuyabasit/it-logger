@@ -1,32 +1,25 @@
 {
   "logs": [
     {
-      "id": 1,
-      "message": "It's a work in progress",
-      "attention": false,
-      "tech": "Bas G.",
-      "date": "2021-11-01T06:44:21.786Z"
-    },
-    {
-      "id": 2,
-      "message": "Im so handsome",
-      "attention": true,
-      "tech": "Tristan L.",
-      "date": "2021-11-01T06:48:14.802Z"
-    },
-    {
       "id": 3,
-      "message": "Im growing, someday i'll be out in this valley, and freaking rat race",
+      "message": "Fixed corrupted hard drive ",
       "attention": false,
-      "tech": "Bas G.",
-      "date": "2021-11-01T06:53:58.618Z"
+      "tech": "Tristan L.",
+      "date": "2021-11-01T08:55:26.249Z"
     },
     {
-      "id": 4,
-      "message": "Hello world",
+      "message": "Malfunction on workstation 0320",
       "attention": true,
       "tech": "MJ C.",
-      "date": "2021-11-01T07:11:32.170Z"
+      "date": "2021-11-01T08:59:28.315Z",
+      "id": 4
+    },
+    {
+      "message": "Fixed some self laziness",
+      "attention": false,
+      "tech": "Bas G.",
+      "date": "2021-11-01T09:00:14.666Z",
+      "id": 5
     }
   ],
   "techs": [
@@ -41,9 +34,9 @@
       "lastName": "L."
     },
     {
-      "id": 3,
       "firstName": "MJ",
-      "lastName": "C."
+      "lastName": "C.",
+      "id": 3
     }
   ]
 }
